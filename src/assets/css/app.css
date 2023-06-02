@@ -1,0 +1,16 @@
+html,body{
+    height: 100%;
+}
+body {
+    background: #F7F9FA url('@/assets/bg_img.png') repeat!important
+}
+.shadow{
+    box-shadow: 2px 1px 12px 3px #eee;
+}
+
+.image-scale{
+    transition: all 800ms ease-in-out;
+}
+.image-scale:hover{
+    transform: scale(1.1);
+}
